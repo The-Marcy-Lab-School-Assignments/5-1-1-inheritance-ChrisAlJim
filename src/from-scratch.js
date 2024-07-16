@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job! */
 class Quadrilateral {
   constructor(side1, side2, side3, side4) {
     this.side1 = side1
@@ -26,6 +27,7 @@ class Rectangle extends Quadrilateral{
 
 class Square extends Rectangle {
   constructor(side1) {
+    /** FEEDBACK: You do not need to have side1 repeated 4 times, twice is fine! The reason for this is that the rectangle's constructor only takes in 2 values! */
     super(side1, side1, side1, side1)
   }
 }
